@@ -9,13 +9,13 @@ import java.util.Collection;
 import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
-public class InputProcessorThreadCorrectInputTest {
+public class ConvertCorrectInputTest {
     private InputProcessorThread inputProcessorThread;
     private String inputLine;
     private int expectedNumber;
 
 
-    public InputProcessorThreadCorrectInputTest(String inputLine, int expectedNumber) {
+    public ConvertCorrectInputTest(String inputLine, int expectedNumber) {
         this.inputLine = inputLine;
         this.expectedNumber = expectedNumber;
     }

@@ -7,11 +7,11 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class InputProcessorThreadIncorrectInputTest {
+public class ConvertIncorrectInputTest {
     private InputProcessorThread inputProcessorThread;
     private String inputLine;
 
-    public InputProcessorThreadIncorrectInputTest(String inputLine) {
+    public ConvertIncorrectInputTest(String inputLine) {
         this.inputLine = inputLine;
     }
 
