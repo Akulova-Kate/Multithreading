@@ -16,9 +16,7 @@ public class InputStorage {
             if (numbers.isEmpty()) {
                 throw new IllegalStateException("The storage with input numbers is empty!");
             } else {
-                int minValue = numbers.poll();
-                numbers.remove(minValue);
-                return minValue;
+               return numbers.poll();
             }
         }
     }
